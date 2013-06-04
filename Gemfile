@@ -23,11 +23,12 @@ end
 gem 'jquery-rails'
 
 group :test, :development do
-  gem 'turn', '<0.8.3' # pretty printing
+  # gem 'turn', '<0.8.3' # pretty printing
   gem 'rspec-rails'
   gem 'capybara' # assistant, simulates user
   gem 'guard-rspec' # automatically runs tests
-  gem 'ruby_gntp' # notification on mac
+  # gem 'ruby_gntp' # notification on mac
+  gem 'launchy' # enables save_and_open_page
 end
 
 # To use ActiveModel has_secure_password
